@@ -1,0 +1,120 @@
+
+body{
+    background-color: #F5F8FD;
+}
+nav{
+    margin-top: 2%;
+}
+
+.navbar-brand {
+    margin-left: 60px;
+    margin-right: 45%;
+  
+}
+.none {
+    opacity: 0;
+}
+
+.form-inline button {
+    color: white;
+    background-color: #3A2769;
+    font-size: 95%;
+    padding: 12px 8px;
+}
+
+.fx{
+    display: flex;
+    justify-content: space-between;
+}
+.write button {
+    margin-top: 12%;
+    margin-left: 10%;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #aeaeae;
+    background-color: #3A2769;
+    
+}
+.write h1{
+    margin-left: 10%;
+    color: #3A2769;
+}
+.write p {
+    margin-left: 10%;
+    color: #aeaeae;
+}
+.write form {
+    margin-left: 10%;
+}
+.write form input {
+    margin: 2px;
+}
+#pot {
+    padding: 15px 30px;
+    border: 1px solid white;
+}
+#boot{
+    color: white;
+    background-color: #3A2769;
+    font-size: 95%;
+    padding: 12px 8px;
+    border-radius: 5px;
+}
+.image{
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+@media(max-width:750px){
+    nav{
+        position: relative;
+    }
+    .none{
+        opacity: 1;
+        margin-left: 90%;
+        position: absolute;
+        top: 10px;
+        left: 5px;
+    }
+    .navbar-brand{
+        margin-left: 0px;
+        margin-right: 0%;
+        position: absolute;
+        top: 0px;
+    }
+    .image{
+        display: none;
+    }
+    .fx {
+        text-align: center;
+        margin-right: 20px;
+    }
+    .write button {
+        margin-top: 0px;
+        border-radius: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #aeaeae;
+        background-color: #3A2769;
+        
+    }
+    #boot{
+        color: white;
+        background-color: #3A2769;
+        font-size: 95%;
+        padding: 15px 75px;
+        border-radius: 5px;
+    }
+}
+
+/*end section 1*/
+
+.footer{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.footer h6{
+    color: #7E7F84;
+}
+.footer img {
+    margin: 5px;
+}
